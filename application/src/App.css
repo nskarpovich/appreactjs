@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(235, 135, 182);
+  background:url('https://get.wallhere.com/photo/water-vehicle-bicycle-1150987.jpg');
+}
+  
+  input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #ace08a;
+    width: 60%;
+    padding-bottom: 4px;
+    color: rgb(5, 5, 5);
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    outline: none;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #050505;
+  }
+  
+  input::-moz-placeholder {
+    color: #4eec76;
+  }
+  
+  button {
+    border: 2px solid #3baf4b;
+    border-bottom: 4px solid #3baf4b;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #3baf4b;
+    color: rgb(231, 229, 233);
+    outline: none!important;
+  }
+  
+  button:hover {
+    border-bottom: 2px solid #103a65;
+    position: relative;
+    top: 2px;
+  }
+  
+  button:active {
+    border-bottom: 2px solid transparent;
+    border-color: transparent;
+    position: relative;
+    top: 2px;
+  }
+  
+  .info h2 {
+    font-size: 3em;
+    color: #fff;
+  }
+  
+  .info p {
+    color: #e4e4e4;
+    font-weight: bold;
+  }
+  
+  .infoWeath {
+    width: 60%;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .error {
+    color: #041f3c;
+    font-weight: bold;
+  }
+  
+  
